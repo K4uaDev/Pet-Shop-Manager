@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Shop Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pets.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>🐾 Pet Shop Manager</h1>
+    </header>
+
+    <section class="card">
+        <h2>Cadastrar Dono</h2>
+        <form id="formDono">
+            <input type="text" id="nomeDono" placeholder="Nome completo" required>
+            <input type="number" id="telefoneDono" placeholder="Telefone (mín. 8 dígitos)" required min="8">
+            <button type="button" id="cadastrarDono">Cadastrar Dono</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>Cadastrar Pet</h2>
+        <form id="formPet">
+            <input type="text" id="nomePet" placeholder="Nome do Pet" required>
+            <input type="text" id="especiePet" placeholder="Espécie (ex: cachorro, gato)" required>
+            <input type="number" id="idadePet" placeholder="Idade" required>
+            <select id="donoPet" required>
+                <option value="">Selecione um dono</option>
+            </select>
+            <button type="button" id="cadastraPet">Cadastrar Pet</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>📋 Lista de Pets</h2>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

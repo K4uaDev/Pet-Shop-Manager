@@ -1,0 +1,90 @@
+:root {
+    --fundo-suave: #FDF6F0;
+    --creme: #F8E2CF;
+    --pessego: #F5C6AA;
+    --rosa-suave: #FFD4D4;
+
+    --branco: #ffffff;
+    --cinza-claro: #f2f2f2;
+    --cinza: #ccc;
+    --texto: #333;
+    --sombra: rgba(0, 0, 0, 0.07);
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--fundo-suave);
+    color: var(--texto);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--pessego);
+    color: var(--texto);
+    margin: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px var(--sombra);
+}
+
+.card {
+    background-color: var(--branco);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px var(--sombra);
+    border: 2px solid var(--creme);
+}
+
+h2 {
+    color: var(--pessego);
+    margin-top: 0;
+}
+
+form input,
+form select,
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: 1px solid var(--cinza);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: var(--rosa-suave);
+    color: var(--texto);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+form button:hover {
+    background-color: var(--pessego);
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    ma
+}
+
+ul li {
+    background-color: var(--creme);
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border-left: 6px solid var(--pessego);
+    font-size: 0.95rem;
+}
